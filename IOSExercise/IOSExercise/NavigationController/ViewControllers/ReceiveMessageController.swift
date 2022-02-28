@@ -50,7 +50,6 @@ extension ReceiveMessageController {
     
     /// This function is for assigning coordinator and creating rightBar button in navigation item
     fileprivate func setData() {
-        
         self.title = NSLocalizedString("Second", comment: " ")
         if let navController = self.navigationController {
             secondVCoordinator = ReceiveMessageCoordinator(navController)

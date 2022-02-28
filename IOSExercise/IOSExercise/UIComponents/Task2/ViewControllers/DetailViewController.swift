@@ -27,6 +27,10 @@ class DetailViewController: UIViewController {
     }
     
     //MARK: - IBActions
+    @IBAction func backClick(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func switchClicked(_ sender: UISwitch) {
         
         if sender.isOn {

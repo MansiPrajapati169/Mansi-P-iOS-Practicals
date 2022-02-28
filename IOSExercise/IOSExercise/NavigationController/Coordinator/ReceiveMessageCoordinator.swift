@@ -29,5 +29,4 @@ class ReceiveMessageCoordinator: Coordinator {
     func finish() {
         navigationController?.popViewController(animated: true)
     }
-    
 }

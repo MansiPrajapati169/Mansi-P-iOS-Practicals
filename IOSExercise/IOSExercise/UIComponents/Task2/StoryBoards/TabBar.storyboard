@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="7gv-HE-zPs">
             <objects>
-                <tabBarController modalPresentationStyle="fullScreen" id="D1T-kJ-m4k" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabBarViewController" modalPresentationStyle="fullScreen" id="D1T-kJ-m4k" customClass="TabBarViewController" customModule="IOSExercise" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hIc-6o-JaH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -37,7 +37,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="wfQ-UL-1zV">
-                                <rect key="frame" x="131.5" y="18.5" width="112.5" height="38"/>
+                                <rect key="frame" x="131.5" y="43.5" width="112.5" height="38"/>
                                 <segments>
                                     <segment title="Grid"/>
                                     <segment title="List"/>
@@ -47,11 +47,11 @@
                                 </connections>
                             </segmentedControl>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="KIk-YY-glT">
-                                <rect key="frame" x="19" y="66.5" width="337.5" height="44"/>
+                                <rect key="frame" x="19" y="96.5" width="337.5" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="150" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bJa-wV-n6v">
-                                <rect key="frame" x="0.0" y="133" width="375" height="414"/>
+                                <rect key="frame" x="0.0" y="168.5" width="375" height="414"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
@@ -60,7 +60,7 @@
                                 </connections>
                             </tableView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="NZJ-Vk-8TA">
-                                <rect key="frame" x="0.0" y="133" width="375" height="414"/>
+                                <rect key="frame" x="0.0" y="168.5" width="375" height="414"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="5" minimumInteritemSpacing="5" id="eTM-6R-Nct">
                                     <size key="itemSize" width="170" height="168"/>
@@ -110,7 +110,7 @@
                                 </connections>
                             </collectionView>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="6" translatesAutoresizingMaskIntoConstraints="NO" id="sRx-6t-HOF">
-                                <rect key="frame" x="140.5" y="574.5" width="94" height="32"/>
+                                <rect key="frame" x="140.5" y="611.5" width="94" height="32"/>
                                 <color key="backgroundColor" red="0.26922219609999998" green="0.3477475626" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="stepperValueChanged:" destination="bLa-qZ-QOw" eventType="valueChanged" id="ekn-8k-r1T"/>
@@ -123,7 +123,7 @@
                             <constraint firstItem="bJa-wV-n6v" firstAttribute="top" secondItem="KIk-YY-glT" secondAttribute="bottom" multiplier="1.2" id="7Gn-PK-MQO"/>
                             <constraint firstItem="cF8-GK-j6G" firstAttribute="trailing" secondItem="bJa-wV-n6v" secondAttribute="trailing" id="CUd-ZK-oQs"/>
                             <constraint firstItem="KIk-YY-glT" firstAttribute="width" secondItem="cF8-GK-j6G" secondAttribute="width" multiplier="0.9" id="D3Z-8W-uDd"/>
-                            <constraint firstItem="wfQ-UL-1zV" firstAttribute="centerY" secondItem="cF8-GK-j6G" secondAttribute="centerY" multiplier="0.12" id="FP6-uQ-sEx"/>
+                            <constraint firstItem="wfQ-UL-1zV" firstAttribute="centerY" secondItem="cF8-GK-j6G" secondAttribute="centerY" multiplier="0.2" id="FP6-uQ-sEx"/>
                             <constraint firstItem="sRx-6t-HOF" firstAttribute="top" secondItem="bJa-wV-n6v" secondAttribute="bottom" multiplier="1.05" id="LM7-yI-c2J"/>
                             <constraint firstItem="sRx-6t-HOF" firstAttribute="top" secondItem="NZJ-Vk-8TA" secondAttribute="bottom" multiplier="1.05" id="SSj-ri-tkU"/>
                             <constraint firstItem="NZJ-Vk-8TA" firstAttribute="height" secondItem="cF8-GK-j6G" secondAttribute="height" multiplier="0.67" id="WLl-ay-WmF"/>
@@ -188,12 +188,22 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DpQ-kJ-xST">
+                                <rect key="frame" x="0.0" y="34.5" width="56" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <action selector="backClick:" destination="cHe-w0-vp8" eventType="touchUpInside" id="mQB-ru-RJW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sOv-XX-maa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="DpQ-kJ-xST" firstAttribute="leading" secondItem="sOv-XX-maa" secondAttribute="leading" id="1Pa-nQ-iAF"/>
                             <constraint firstItem="VIi-kt-a7L" firstAttribute="width" secondItem="6HT-Yg-4XF" secondAttribute="width" multiplier="0.64" id="9iK-n2-BEa"/>
                             <constraint firstItem="VIi-kt-a7L" firstAttribute="height" secondItem="6HT-Yg-4XF" secondAttribute="height" multiplier="0.191904" id="Gez-G5-gnj"/>
+                            <constraint firstItem="DpQ-kJ-xST" firstAttribute="centerY" secondItem="sOv-XX-maa" secondAttribute="centerY" multiplier="0.15" id="VuQ-Fz-cTt"/>
                             <constraint firstItem="B1C-eb-xic" firstAttribute="centerX" secondItem="sOv-XX-maa" secondAttribute="centerX" id="cko-Gg-SRD"/>
                             <constraint firstItem="VIi-kt-a7L" firstAttribute="top" secondItem="B1C-eb-xic" secondAttribute="bottom" constant="51.5" id="qos-1H-v8z"/>
                             <constraint firstItem="VIi-kt-a7L" firstAttribute="centerX" secondItem="sOv-XX-maa" secondAttribute="centerX" id="uUW-FA-7RJ"/>
@@ -205,12 +215,11 @@
                         <outlet property="detailImage" destination="ZHh-6W-jIN" id="W9x-bs-mwa"/>
                         <outlet property="detailLabel" destination="925-1P-Dam" id="Vwa-er-MgJ"/>
                         <outlet property="stackView" destination="VIi-kt-a7L" id="VaT-Ih-osa"/>
-                        <outlet property="switch" destination="B1C-eb-xic" id="aW4-cE-RGB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NT8-yh-y09" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="927" y="-87"/>
+            <point key="canvasLocation" x="1081" y="-98"/>
         </scene>
         <!--Web-->
         <scene sceneID="kgD-KK-Z76">

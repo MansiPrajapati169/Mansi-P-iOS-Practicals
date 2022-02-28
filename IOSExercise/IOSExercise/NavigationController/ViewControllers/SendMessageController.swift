@@ -21,7 +21,11 @@ class SendMessageController: UIViewController {
     
     //MARK: - IBActions
     @IBAction func sendButtonClick(_ sender: UIButton) {
-        firstVCoordinator?.goToReceiveVC(addMessageTextField.text ?? NSLocalizedString("No Message", comment: " "),self)
+//        firstVCoordinator?.goToReceiveVC(addMessageTextField.text ?? NSLocalizedString("No Message", comment: " "),self)
+        if let secondVC = self.storyboard?.instantiateViewController(withIdentifier: "receiveMessageNavigationController") as? ReceiveMessageController {
+            secondVC.delegate = self
+            self.navigationController?.pushViewController(secondVC, animated: true)
+        }
     }
 }
   
@@ -36,7 +40,7 @@ extension SendMessageController: ReceiveMessageProtocol {
     fileprivate func setData() {
         self.navigationItem.largeTitleDisplayMode = .never
         self.title = NSLocalizedString("First", comment: " ")
-        
+    
         if let navController = self.navigationController {
             firstVCoordinator = SendMessageCoordinator(navController)
         }

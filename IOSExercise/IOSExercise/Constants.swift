@@ -10,6 +10,15 @@ import UIKit
 
 struct Constants {
     
+    //MARK: - Main
+    static let iosAIdentifier = "signUpViewController"
+    static let iosCIdentifier = "uiComponentTasksViewController"
+    static let iosChapFour = "loginViewController"
+    static let iosDIdentifier = "sendMessageNavigationController"
+    static let signUpStoryBoard = "SignUpScreen"
+    static let signUpLoginStoryBoard = "SignUpLogin"
+    static let loginStoryBoard = "LoginApi"
+    
     //MARK: - BasicLayout
     static let basicAutoLayout = "basicLayout"
     static let unwindSegue = "unwindSegue"
@@ -18,9 +27,11 @@ struct Constants {
     static let signUpIdentifier = "signupViewController"
     static let loginIdentifier = "loginViewController"
     static let dataTableViewCell = "dataTableViewCell"
-    static let signUpLogin = "SignupLogin"
     static let collectionCell = "collectionCell"
     static let detailSegue = "detailSegue"
+    static let tableViewIdentifier = "tableViewController"
+    static let tabBarStoryBoard = "TabBar"
+    static let tabBarIdentifier = "tabBarViewController"
     static let progress: Float = 1.0
     static let progressDuration = 5.0
     
@@ -52,4 +63,20 @@ struct Constants {
     static let fourthIdentifier = "fourthViewController"
     static let fifthIdentifier = "fifthViewController"
     static let tableViewFooterIdentifier = "tableViewFooterTitle"
+    
+    //MARK: - Web Services
+    static let get = "GET"
+    static let post = "POST"
+    static let applicationJson = "application/json"
+    static let contentType = "Content-Type"
+    static let addUserUrl = "https://reqres.in/api/users"
+    static let listUserUrl = "https://reqres.in/api/users?delay=3"
+    static let loginApiUrl = "https://reqres.in/api/login"
+    static let userDetailsUrl = "https://reqres.in/api/users/"
+    static let emailPattern = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+    static let emailFormat = "SELF MATCHES %@"
+    static let userDetailsIdentifier = "userDetailsViewController"
+    static let listUserCellIdentifier = "listUserCell"
+    static let addUserViewIdentifier = "addUserView"
+    static let listUserIdentifier = "listUser"
 }

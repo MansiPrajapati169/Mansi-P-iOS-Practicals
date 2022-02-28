@@ -67,5 +67,5 @@ extension SignupViewController {
         
         submitButton.layer.cornerRadius = Constants.four
     }
-    
 }
+

@@ -28,5 +28,4 @@ class SendMessageCoordinator: Coordinator {
     func finish() {
         // we are not popping anything from sendMessageController so we don't have to implement this function
     }
-    
 }
