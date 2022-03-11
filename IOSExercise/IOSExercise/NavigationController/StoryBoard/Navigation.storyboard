@@ -18,7 +18,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnA-Dt-B00">
                                 <rect key="frame" x="169.66666666666666" y="352.66666666666669" width="75" height="31"/>
-                                <color key="backgroundColor" red="0.1552251888" green="0.19188274559999999" blue="0.93531885839999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.26922219609999998" green="0.3477475626" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.93531885839999995" green="0.93531885839999995" blue="0.93531885839999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Dismiss"/>
@@ -52,7 +52,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5b0-SE-2LX">
                                 <rect key="frame" x="62" y="276" width="290" height="36.666666666666686"/>
-                                <color key="backgroundColor" red="0.1552251888" green="0.19188274559999999" blue="0.93531885839999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.26922219609999998" green="0.3477475626" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Go to First"/>
@@ -61,8 +61,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Epe-e8-CRz">
-                                <rect key="frame" x="68.666666666666657" y="344" width="276.66666666666674" height="31.333333333333314"/>
-                                <color key="backgroundColor" red="0.1552251888" green="0.19188274559999999" blue="0.93531885839999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="62" y="344" width="290" height="37"/>
+                                <color key="backgroundColor" red="0.26922219609999998" green="0.3477475626" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="PopToViewController"/>
@@ -71,8 +71,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQW-cv-KKt">
-                                <rect key="frame" x="68.666666666666657" y="412.66666666666669" width="276.66666666666674" height="31"/>
-                                <color key="backgroundColor" red="0.1552251888" green="0.19188274559999999" blue="0.93531885839999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="62" y="411.33333333333331" width="290" height="36.666666666666686"/>
+                                <color key="backgroundColor" red="0.26922219609999998" green="0.3477475626" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="TableView"/>
@@ -86,15 +86,15 @@
                         <constraints>
                             <constraint firstItem="DQW-cv-KKt" firstAttribute="width" secondItem="Epe-e8-CRz" secondAttribute="width" id="9Cz-yi-hll"/>
                             <constraint firstItem="5b0-SE-2LX" firstAttribute="width" secondItem="qgc-Vy-Gy3" secondAttribute="width" multiplier="0.7" id="BYh-vX-e8x"/>
-                            <constraint firstItem="DQW-cv-KKt" firstAttribute="top" secondItem="Epe-e8-CRz" secondAttribute="bottom" multiplier="1.1" id="K96-Rc-qUN"/>
+                            <constraint firstItem="DQW-cv-KKt" firstAttribute="top" secondItem="Epe-e8-CRz" secondAttribute="bottom" multiplier="1.08" id="K96-Rc-qUN"/>
                             <constraint firstItem="5b0-SE-2LX" firstAttribute="centerY" secondItem="qgc-Vy-Gy3" secondAttribute="centerY" multiplier="0.8" id="TQE-pS-BSG"/>
-                            <constraint firstItem="Epe-e8-CRz" firstAttribute="height" secondItem="5b0-SE-2LX" secondAttribute="height" multiplier="0.845455" id="TvE-AC-oWa"/>
+                            <constraint firstItem="Epe-e8-CRz" firstAttribute="height" secondItem="5b0-SE-2LX" secondAttribute="height" id="TvE-AC-oWa"/>
                             <constraint firstItem="5b0-SE-2LX" firstAttribute="height" secondItem="qgc-Vy-Gy3" secondAttribute="height" multiplier="0.05" id="U70-rm-Xo7"/>
                             <constraint firstItem="Epe-e8-CRz" firstAttribute="centerX" secondItem="qgc-Vy-Gy3" secondAttribute="centerX" id="WRI-Tu-SUD"/>
                             <constraint firstItem="Epe-e8-CRz" firstAttribute="top" secondItem="5b0-SE-2LX" secondAttribute="bottom" multiplier="1.1" id="eMb-sy-8ND"/>
                             <constraint firstItem="5b0-SE-2LX" firstAttribute="centerX" secondItem="qgc-Vy-Gy3" secondAttribute="centerX" id="jg4-Py-tw0"/>
                             <constraint firstItem="DQW-cv-KKt" firstAttribute="centerX" secondItem="qgc-Vy-Gy3" secondAttribute="centerX" id="nf1-Ue-Djz"/>
-                            <constraint firstItem="Epe-e8-CRz" firstAttribute="width" secondItem="5b0-SE-2LX" secondAttribute="width" multiplier="0.955645" id="sqn-BZ-CTt"/>
+                            <constraint firstItem="Epe-e8-CRz" firstAttribute="width" secondItem="5b0-SE-2LX" secondAttribute="width" id="sqn-BZ-CTt"/>
                             <constraint firstItem="DQW-cv-KKt" firstAttribute="height" secondItem="Epe-e8-CRz" secondAttribute="height" id="wGG-tD-puM"/>
                         </constraints>
                     </view>
@@ -225,7 +225,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LH-as-GFn">
                                 <rect key="frame" x="165.66666666666666" y="366" width="82.666666666666657" height="34.666666666666686"/>
-                                <color key="backgroundColor" red="0.19270839440000001" green="0.1441542717" blue="0.95446368349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.26922219609999998" green="0.3477475626" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Send"/>
@@ -272,7 +272,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGK-qg-1gI">
                                 <rect key="frame" x="124.33333333333333" y="348" width="165.33333333333337" height="37"/>
-                                <color key="backgroundColor" red="0.19270839440000001" green="0.1441542717" blue="0.95446368349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.26922219609999998" green="0.3477475626" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Send"/>
@@ -282,7 +282,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIN-d6-ubD">
                                 <rect key="frame" x="124.33333333333333" y="423.33333333333331" width="165.33333333333337" height="37"/>
-                                <color key="backgroundColor" red="0.1552251888" green="0.19188274559999999" blue="0.93531885839999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.26922219609999998" green="0.3477475626" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Go to Fourth"/>

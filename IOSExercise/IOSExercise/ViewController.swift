@@ -1,7 +1,8 @@
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, Storyboarded{
+    var coordinator: MainCoordinator?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -30,10 +31,14 @@ class ViewController: UIViewController {
         }
     }
     
-//    func navigation(storybordName: String,identifier: String,viewController: UIViewController) {
-//        if let iosCVC = UIStoryboard(name: storybordName, bundle: nil) .instantiateViewController(withIdentifier: identifier) as? ViewController {
+//    @IBAction func chapSix(_ sender: UIButton) {
+//        if let iosCVC = UIStoryboard(name: "ArchitectureTasks", bundle: nil) .instantiateViewController(withIdentifier: Constants.architectureIdentifier) as? ArchitectureTasksViewController {
 //            navigationController?.pushViewController(iosCVC, animated: true)
 //        }
 //    }
+    
+    @IBAction func architecture(_ sender: UIButton) {
+        coordinator?.goToTasksVC()
+    }
 }
 

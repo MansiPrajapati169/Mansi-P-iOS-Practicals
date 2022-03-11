@@ -112,6 +112,7 @@
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="6" translatesAutoresizingMaskIntoConstraints="NO" id="sRx-6t-HOF">
                                 <rect key="frame" x="140.5" y="611.5" width="94" height="32"/>
                                 <color key="backgroundColor" red="0.26922219609999998" green="0.3477475626" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.26922219609999998" green="0.3477475626" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="stepperValueChanged:" destination="bLa-qZ-QOw" eventType="valueChanged" id="ekn-8k-r1T"/>
                                 </connections>

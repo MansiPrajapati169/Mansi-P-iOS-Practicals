@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="viewController" id="BYZ-38-t0r" customClass="ViewController" customModule="IOSExercise" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="IOSExercise" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,6 +57,16 @@
                                     <action selector="chapFour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xy8-Ik-qtJ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wn-ik-9Y6">
+                                <rect key="frame" x="48" y="269" width="224" height="22"/>
+                                <color key="backgroundColor" red="0.26922219609999998" green="0.3477475626" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Ch-6"/>
+                                <connections>
+                                    <action selector="architecture:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MN4-e2-tc8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -70,12 +80,16 @@
                             <constraint firstItem="qS3-Bz-n6N" firstAttribute="top" secondItem="35J-rb-otG" secondAttribute="bottom" multiplier="1.2" id="N7M-d5-MKf"/>
                             <constraint firstItem="f3J-bT-vUg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="VFu-bx-oIB"/>
                             <constraint firstItem="rv6-RC-zmb" firstAttribute="top" secondItem="f3J-bT-vUg" secondAttribute="bottom" multiplier="1.1" id="VR6-GL-Dvc"/>
+                            <constraint firstItem="0wn-ik-9Y6" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aJC-rI-Qbk"/>
                             <constraint firstItem="f3J-bT-vUg" firstAttribute="top" secondItem="qS3-Bz-n6N" secondAttribute="bottom" multiplier="1.15" id="faF-TH-Ist"/>
                             <constraint firstItem="35J-rb-otG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="gHf-oG-BKP"/>
                             <constraint firstItem="qS3-Bz-n6N" firstAttribute="width" secondItem="35J-rb-otG" secondAttribute="width" id="hhe-OK-Be1"/>
+                            <constraint firstItem="0wn-ik-9Y6" firstAttribute="top" secondItem="rv6-RC-zmb" secondAttribute="bottom" multiplier="1.08" id="ngI-ij-TJR"/>
                             <constraint firstItem="qS3-Bz-n6N" firstAttribute="height" secondItem="35J-rb-otG" secondAttribute="height" id="o1F-DC-vLh"/>
+                            <constraint firstItem="0wn-ik-9Y6" firstAttribute="height" secondItem="rv6-RC-zmb" secondAttribute="height" id="swK-Ln-dzq"/>
                             <constraint firstItem="35J-rb-otG" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.7" id="xJs-iQ-8wh"/>
                             <constraint firstItem="f3J-bT-vUg" firstAttribute="width" secondItem="qS3-Bz-n6N" secondAttribute="width" id="xpN-0v-CHg"/>
+                            <constraint firstItem="0wn-ik-9Y6" firstAttribute="width" secondItem="rv6-RC-zmb" secondAttribute="width" id="zZe-wA-gGL"/>
                             <constraint firstItem="f3J-bT-vUg" firstAttribute="height" secondItem="qS3-Bz-n6N" secondAttribute="height" id="zpH-I4-AUS"/>
                         </constraints>
                     </view>
@@ -91,7 +105,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3Di-vn-mCO" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="7pZ-u1-kYS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

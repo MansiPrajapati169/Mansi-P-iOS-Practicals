@@ -22,7 +22,7 @@ class SendMessageController: UIViewController {
     //MARK: - IBActions
     @IBAction func sendButtonClick(_ sender: UIButton) {
 //        firstVCoordinator?.goToReceiveVC(addMessageTextField.text ?? NSLocalizedString("No Message", comment: " "),self)
-        if let secondVC = self.storyboard?.instantiateViewController(withIdentifier: "receiveMessageNavigationController") as? ReceiveMessageController {
+        if let secondVC = self.storyboard?.instantiateViewController(withIdentifier: Constants.receiveMessageIdentifier) as? ReceiveMessageController {
             secondVC.delegate = self
             self.navigationController?.pushViewController(secondVC, animated: true)
         }
