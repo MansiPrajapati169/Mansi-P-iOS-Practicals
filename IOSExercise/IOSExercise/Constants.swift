@@ -28,6 +28,7 @@ struct Constants {
     static let two: CGFloat = 2
     static let four: CGFloat = 1
     static let intOne = 1
+    static let intTwo = 2
     static let fifty: CGFloat = 50
     static let hundred: CGFloat = 100
     static let ten: CGFloat = 10
@@ -38,4 +39,17 @@ struct Constants {
     
     //MARK: - StoryBoard Names
     static let dataTableViewStoryBoard = "DataTableViewCell"
+    static let navigationStoryBoard = "Navigation"
+    static let mainStoryBoard = "Main"
+    
+    //MARK: - Navigation Controller
+    static let receiveMessageIdentifier = "receiveMessageNavigationController"
+    static let sendMessageIdentifier =  "sendMessageNavigationController"
+    static let viewController = "viewController"
+    static let firstCell = "firstCell"
+    static let secondCell = "secondCell"
+    static let thirdIdentifier = "thirdViewController"
+    static let fourthIdentifier = "fourthViewController"
+    static let fifthIdentifier = "fifthViewController"
+    static let tableViewFooterIdentifier = "tableViewFooterTitle"
 }

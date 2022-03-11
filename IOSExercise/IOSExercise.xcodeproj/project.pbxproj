@@ -16,6 +16,19 @@
 		4612C7AE27C62CE20042B4A9 /* IOSExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612C7AD27C62CE20042B4A9 /* IOSExerciseUITests.swift */; };
 		4612C7B027C62CE20042B4A9 /* IOSExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612C7AF27C62CE20042B4A9 /* IOSExerciseUITestsLaunchTests.swift */; };
 		4612C7BE27C63A4D0042B4A9 /* SignUpScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4612C7BD27C63A4D0042B4A9 /* SignUpScreen.storyboard */; };
+		464311DA2812D12800259204 /* ReceiveMessageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464311CC2812D12800259204 /* ReceiveMessageCoordinator.swift */; };
+		464311DB2812D12800259204 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464311CD2812D12800259204 /* AppCoordinator.swift */; };
+		464311DC2812D12800259204 /* SendMessageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464311CE2812D12800259204 /* SendMessageCoordinator.swift */; };
+		464311DD2812D12800259204 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464311CF2812D12800259204 /* MainCoordinator.swift */; };
+		464311DE2812D12800259204 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464311D02812D12800259204 /* Coordinator.swift */; };
+		464311DF2812D12800259204 /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464311D22812D12800259204 /* Navigation.storyboard */; };
+		464311E02812D12800259204 /* TableViewFooterTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464311D42812D12800259204 /* TableViewFooterTitleViewController.swift */; };
+		464311E12812D12800259204 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464311D52812D12800259204 /* ThirdViewController.swift */; };
+		464311E22812D12800259204 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464311D62812D12800259204 /* FifthViewController.swift */; };
+		464311E32812D12800259204 /* ReceiveMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464311D72812D12800259204 /* ReceiveMessageController.swift */; };
+		464311E42812D12800259204 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464311D82812D12800259204 /* FourthViewController.swift */; };
+		464311E52812D12800259204 /* SendMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464311D92812D12800259204 /* SendMessageController.swift */; };
+		464311E72812D2DF00259204 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 464311E62812D2DF00259204 /* Localizable.strings */; };
 		464A70A1281286580069C417 /* SignupLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464A7087281286580069C417 /* SignupLogin.storyboard */; };
 		464A70A2281286580069C417 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A7089281286580069C417 /* DataModel.swift */; };
 		464A70A3281286580069C417 /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 464A708B281286580069C417 /* DataTableViewCell.xib */; };
@@ -69,6 +82,19 @@
 		4612C7AD27C62CE20042B4A9 /* IOSExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSExerciseUITests.swift; sourceTree = "<group>"; };
 		4612C7AF27C62CE20042B4A9 /* IOSExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4612C7BD27C63A4D0042B4A9 /* SignUpScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpScreen.storyboard; sourceTree = "<group>"; };
+		464311CC2812D12800259204 /* ReceiveMessageCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiveMessageCoordinator.swift; sourceTree = "<group>"; };
+		464311CD2812D12800259204 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		464311CE2812D12800259204 /* SendMessageCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageCoordinator.swift; sourceTree = "<group>"; };
+		464311CF2812D12800259204 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		464311D02812D12800259204 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		464311D22812D12800259204 /* Navigation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Navigation.storyboard; sourceTree = "<group>"; };
+		464311D42812D12800259204 /* TableViewFooterTitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewFooterTitleViewController.swift; sourceTree = "<group>"; };
+		464311D52812D12800259204 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		464311D62812D12800259204 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		464311D72812D12800259204 /* ReceiveMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiveMessageController.swift; sourceTree = "<group>"; };
+		464311D82812D12800259204 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		464311D92812D12800259204 /* SendMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageController.swift; sourceTree = "<group>"; };
+		464311E62812D2DF00259204 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		464A7087281286580069C417 /* SignupLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignupLogin.storyboard; sourceTree = "<group>"; };
 		464A7089281286580069C417 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		464A708B281286580069C417 /* DataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
@@ -139,6 +165,7 @@
 		4612C78B27C62CE00042B4A9 /* IOSExercise */ = {
 			isa = PBXGroup;
 			children = (
+				464311CA2812D12800259204 /* NavigationController */,
 				464A7083281286580069C417 /* UIComponents */,
 				4612C7BC27C62E900042B4A9 /* BasicLayout */,
 				4612C78C27C62CE00042B4A9 /* AppDelegate.swift */,
@@ -149,6 +176,7 @@
 				46D9073427CCC159007513CE /* Assets.xcassets */,
 				4612C79A27C62CE10042B4A9 /* Info.plist */,
 				46DC2DD9280D2DE800CC8908 /* Constants.swift */,
+				464311E62812D2DF00259204 /* Localizable.strings */,
 			);
 			path = IOSExercise;
 			sourceTree = "<group>";
@@ -177,6 +205,49 @@
 				46C87DB927CCDAB200E12189 /* SignUpViewController.swift */,
 			);
 			path = BasicLayout;
+			sourceTree = "<group>";
+		};
+		464311CA2812D12800259204 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				464311CB2812D12800259204 /* Coordinator */,
+				464311D12812D12800259204 /* StoryBoard */,
+				464311D32812D12800259204 /* ViewControllers */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		464311CB2812D12800259204 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				464311CC2812D12800259204 /* ReceiveMessageCoordinator.swift */,
+				464311CD2812D12800259204 /* AppCoordinator.swift */,
+				464311CE2812D12800259204 /* SendMessageCoordinator.swift */,
+				464311CF2812D12800259204 /* MainCoordinator.swift */,
+				464311D02812D12800259204 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		464311D12812D12800259204 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				464311D22812D12800259204 /* Navigation.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		464311D32812D12800259204 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				464311D42812D12800259204 /* TableViewFooterTitleViewController.swift */,
+				464311D52812D12800259204 /* ThirdViewController.swift */,
+				464311D62812D12800259204 /* FifthViewController.swift */,
+				464311D72812D12800259204 /* ReceiveMessageController.swift */,
+				464311D82812D12800259204 /* FourthViewController.swift */,
+				464311D92812D12800259204 /* SendMessageController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		464A7083281286580069C417 /* UIComponents */ = {
@@ -257,7 +328,6 @@
 		464A7095281286580069C417 /* CollectionCell */ = {
 			isa = PBXGroup;
 			children = (
-				464A709F281286580069C417 /* GridListViewCell.swift */,
 				464A7096281286580069C417 /* CollectionViewCell.swift */,
 				46CB1F9928128E61002148DC /* GridListViewCell.swift */,
 			);
@@ -392,6 +462,8 @@
 				464A70A3281286580069C417 /* DataTableViewCell.xib in Resources */,
 				464A70A1281286580069C417 /* SignupLogin.storyboard in Resources */,
 				4612C79927C62CE10042B4A9 /* LaunchScreen.storyboard in Resources */,
+				464311E72812D2DF00259204 /* Localizable.strings in Resources */,
+				464311DF2812D12800259204 /* Navigation.storyboard in Resources */,
 				46D9073527CCC159007513CE /* Assets.xcassets in Resources */,
 				464A70A9281286580069C417 /* TabBar.storyboard in Resources */,
 				4612C79427C62CE00042B4A9 /* Main.storyboard in Resources */,
@@ -422,19 +494,30 @@
 				464A70A8281286580069C417 /* LoginViewController.swift in Sources */,
 				464A70A5281286580069C417 /* SignupViewController.swift in Sources */,
 				464A70A2281286580069C417 /* DataModel.swift in Sources */,
+				464311E52812D12800259204 /* SendMessageController.swift in Sources */,
+				464311E02812D12800259204 /* TableViewFooterTitleViewController.swift in Sources */,
 				46DC2DDA280D2DE800CC8908 /* Constants.swift in Sources */,
 				4612C79127C62CE00042B4A9 /* ViewController.swift in Sources */,
 				4612C78D27C62CE00042B4A9 /* AppDelegate.swift in Sources */,
+				464311DB2812D12800259204 /* AppCoordinator.swift in Sources */,
 				46C87DBA27CCDAB200E12189 /* SignUpViewController.swift in Sources */,
+				464311DE2812D12800259204 /* Coordinator.swift in Sources */,
+				464311E42812D12800259204 /* FourthViewController.swift in Sources */,
+				464311DD2812D12800259204 /* MainCoordinator.swift in Sources */,
 				464A70A7281286580069C417 /* TableViewController.swift in Sources */,
+				464311E12812D12800259204 /* ThirdViewController.swift in Sources */,
 				46CB1F9A28128E61002148DC /* GridListViewCell.swift in Sources */,
 				464A70B0281286580069C417 /* MapDataModel.swift in Sources */,
+				464311DA2812D12800259204 /* ReceiveMessageCoordinator.swift in Sources */,
 				464A70AA281286580069C417 /* CollectionViewCell.swift in Sources */,
 				464A70AF281286580069C417 /* CollectionDataModel.swift in Sources */,
+				464311E22812D12800259204 /* FifthViewController.swift in Sources */,
 				464A70A6281286580069C417 /* SignupLoginViewController.swift in Sources */,
 				4612C78F27C62CE00042B4A9 /* SceneDelegate.swift in Sources */,
+				464311E32812D12800259204 /* ReceiveMessageController.swift in Sources */,
 				464A70AD281286580069C417 /* HomeViewController.swift in Sources */,
 				464A70AE281286580069C417 /* WebViewController.swift in Sources */,
+				464311DC2812D12800259204 /* SendMessageCoordinator.swift in Sources */,
 				464A70AC281286580069C417 /* DetailViewController.swift in Sources */,
 				464A70A4281286580069C417 /* DataTableViewCell.swift in Sources */,
 				464A70AB281286580069C417 /* MapViewController.swift in Sources */,
