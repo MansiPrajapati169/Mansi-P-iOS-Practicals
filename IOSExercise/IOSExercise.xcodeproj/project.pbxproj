@@ -16,7 +16,24 @@
 		4612C7AE27C62CE20042B4A9 /* IOSExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612C7AD27C62CE20042B4A9 /* IOSExerciseUITests.swift */; };
 		4612C7B027C62CE20042B4A9 /* IOSExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612C7AF27C62CE20042B4A9 /* IOSExerciseUITestsLaunchTests.swift */; };
 		4612C7BE27C63A4D0042B4A9 /* SignUpScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4612C7BD27C63A4D0042B4A9 /* SignUpScreen.storyboard */; };
+		464A70A1281286580069C417 /* SignupLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464A7087281286580069C417 /* SignupLogin.storyboard */; };
+		464A70A2281286580069C417 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A7089281286580069C417 /* DataModel.swift */; };
+		464A70A3281286580069C417 /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 464A708B281286580069C417 /* DataTableViewCell.xib */; };
+		464A70A4281286580069C417 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A708C281286580069C417 /* DataTableViewCell.swift */; };
+		464A70A5281286580069C417 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A708E281286580069C417 /* SignupViewController.swift */; };
+		464A70A6281286580069C417 /* SignupLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A708F281286580069C417 /* SignupLoginViewController.swift */; };
+		464A70A7281286580069C417 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A7090281286580069C417 /* TableViewController.swift */; };
+		464A70A8281286580069C417 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A7091281286580069C417 /* LoginViewController.swift */; };
+		464A70A9281286580069C417 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464A7094281286580069C417 /* TabBar.storyboard */; };
+		464A70AA281286580069C417 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A7096281286580069C417 /* CollectionViewCell.swift */; };
+		464A70AB281286580069C417 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A7098281286580069C417 /* MapViewController.swift */; };
+		464A70AC281286580069C417 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A7099281286580069C417 /* DetailViewController.swift */; };
+		464A70AD281286580069C417 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A709A281286580069C417 /* HomeViewController.swift */; };
+		464A70AE281286580069C417 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A709B281286580069C417 /* WebViewController.swift */; };
+		464A70AF281286580069C417 /* CollectionDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A709D281286580069C417 /* CollectionDataModel.swift */; };
+		464A70B0281286580069C417 /* MapDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A709E281286580069C417 /* MapDataModel.swift */; };
 		46C87DBA27CCDAB200E12189 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C87DB927CCDAB200E12189 /* SignUpViewController.swift */; };
+		46CB1F9A28128E61002148DC /* GridListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CB1F9928128E61002148DC /* GridListViewCell.swift */; };
 		46D9073527CCC159007513CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D9073427CCC159007513CE /* Assets.xcassets */; };
 		46DC2DDA280D2DE800CC8908 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC2DD9280D2DE800CC8908 /* Constants.swift */; };
 /* End PBXBuildFile section */
@@ -52,7 +69,24 @@
 		4612C7AD27C62CE20042B4A9 /* IOSExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSExerciseUITests.swift; sourceTree = "<group>"; };
 		4612C7AF27C62CE20042B4A9 /* IOSExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4612C7BD27C63A4D0042B4A9 /* SignUpScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpScreen.storyboard; sourceTree = "<group>"; };
+		464A7087281286580069C417 /* SignupLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignupLogin.storyboard; sourceTree = "<group>"; };
+		464A7089281286580069C417 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		464A708B281286580069C417 /* DataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
+		464A708C281286580069C417 /* DataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		464A708E281286580069C417 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		464A708F281286580069C417 /* SignupLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupLoginViewController.swift; sourceTree = "<group>"; };
+		464A7090281286580069C417 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		464A7091281286580069C417 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		464A7094281286580069C417 /* TabBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		464A7096281286580069C417 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		464A7098281286580069C417 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		464A7099281286580069C417 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		464A709A281286580069C417 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		464A709B281286580069C417 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		464A709D281286580069C417 /* CollectionDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDataModel.swift; sourceTree = "<group>"; };
+		464A709E281286580069C417 /* MapDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDataModel.swift; sourceTree = "<group>"; };
 		46C87DB927CCDAB200E12189 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		46CB1F9928128E61002148DC /* GridListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridListViewCell.swift; sourceTree = "<group>"; };
 		46D9073427CCC159007513CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		46DC2DD9280D2DE800CC8908 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +139,7 @@
 		4612C78B27C62CE00042B4A9 /* IOSExercise */ = {
 			isa = PBXGroup;
 			children = (
+				464A7083281286580069C417 /* UIComponents */,
 				4612C7BC27C62E900042B4A9 /* BasicLayout */,
 				4612C78C27C62CE00042B4A9 /* AppDelegate.swift */,
 				4612C78E27C62CE00042B4A9 /* SceneDelegate.swift */,
@@ -142,6 +177,111 @@
 				46C87DB927CCDAB200E12189 /* SignUpViewController.swift */,
 			);
 			path = BasicLayout;
+			sourceTree = "<group>";
+		};
+		464A7083281286580069C417 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				464A7085281286580069C417 /* Task1 */,
+				464A7092281286580069C417 /* Task2 */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		464A7085281286580069C417 /* Task1 */ = {
+			isa = PBXGroup;
+			children = (
+				464A7086281286580069C417 /* StoryBoards */,
+				464A7088281286580069C417 /* ViewModel */,
+				464A708A281286580069C417 /* TableCell */,
+				464A708D281286580069C417 /* ViewControllers */,
+			);
+			path = Task1;
+			sourceTree = "<group>";
+		};
+		464A7086281286580069C417 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				464A7087281286580069C417 /* SignupLogin.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		464A7088281286580069C417 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				464A7089281286580069C417 /* DataModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		464A708A281286580069C417 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				464A708B281286580069C417 /* DataTableViewCell.xib */,
+				464A708C281286580069C417 /* DataTableViewCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		464A708D281286580069C417 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				464A708E281286580069C417 /* SignupViewController.swift */,
+				464A708F281286580069C417 /* SignupLoginViewController.swift */,
+				464A7090281286580069C417 /* TableViewController.swift */,
+				464A7091281286580069C417 /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		464A7092281286580069C417 /* Task2 */ = {
+			isa = PBXGroup;
+			children = (
+				464A7093281286580069C417 /* StoryBoards */,
+				464A7095281286580069C417 /* CollectionCell */,
+				464A7097281286580069C417 /* ViewControllers */,
+				464A709C281286580069C417 /* Model */,
+			);
+			path = Task2;
+			sourceTree = "<group>";
+		};
+		464A7093281286580069C417 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				464A7094281286580069C417 /* TabBar.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		464A7095281286580069C417 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				464A709F281286580069C417 /* GridListViewCell.swift */,
+				464A7096281286580069C417 /* CollectionViewCell.swift */,
+				46CB1F9928128E61002148DC /* GridListViewCell.swift */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		464A7097281286580069C417 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				464A7098281286580069C417 /* MapViewController.swift */,
+				464A7099281286580069C417 /* DetailViewController.swift */,
+				464A709A281286580069C417 /* HomeViewController.swift */,
+				464A709B281286580069C417 /* WebViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		464A709C281286580069C417 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				464A709D281286580069C417 /* CollectionDataModel.swift */,
+				464A709E281286580069C417 /* MapDataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +389,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4612C7BE27C63A4D0042B4A9 /* SignUpScreen.storyboard in Resources */,
+				464A70A3281286580069C417 /* DataTableViewCell.xib in Resources */,
+				464A70A1281286580069C417 /* SignupLogin.storyboard in Resources */,
 				4612C79927C62CE10042B4A9 /* LaunchScreen.storyboard in Resources */,
 				46D9073527CCC159007513CE /* Assets.xcassets in Resources */,
+				464A70A9281286580069C417 /* TabBar.storyboard in Resources */,
 				4612C79427C62CE00042B4A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,11 +419,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				464A70A8281286580069C417 /* LoginViewController.swift in Sources */,
+				464A70A5281286580069C417 /* SignupViewController.swift in Sources */,
+				464A70A2281286580069C417 /* DataModel.swift in Sources */,
 				46DC2DDA280D2DE800CC8908 /* Constants.swift in Sources */,
 				4612C79127C62CE00042B4A9 /* ViewController.swift in Sources */,
 				4612C78D27C62CE00042B4A9 /* AppDelegate.swift in Sources */,
 				46C87DBA27CCDAB200E12189 /* SignUpViewController.swift in Sources */,
+				464A70A7281286580069C417 /* TableViewController.swift in Sources */,
+				46CB1F9A28128E61002148DC /* GridListViewCell.swift in Sources */,
+				464A70B0281286580069C417 /* MapDataModel.swift in Sources */,
+				464A70AA281286580069C417 /* CollectionViewCell.swift in Sources */,
+				464A70AF281286580069C417 /* CollectionDataModel.swift in Sources */,
+				464A70A6281286580069C417 /* SignupLoginViewController.swift in Sources */,
 				4612C78F27C62CE00042B4A9 /* SceneDelegate.swift in Sources */,
+				464A70AD281286580069C417 /* HomeViewController.swift in Sources */,
+				464A70AE281286580069C417 /* WebViewController.swift in Sources */,
+				464A70AC281286580069C417 /* DetailViewController.swift in Sources */,
+				464A70A4281286580069C417 /* DataTableViewCell.swift in Sources */,
+				464A70AB281286580069C417 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
