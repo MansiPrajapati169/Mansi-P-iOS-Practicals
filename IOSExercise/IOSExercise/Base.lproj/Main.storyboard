@@ -27,13 +27,28 @@
                                     <action selector="basicLayout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ioq-dx-qEo"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qS3-Bz-n6N">
+                                <rect key="frame" x="48" y="89" width="224" height="24"/>
+                                <color key="backgroundColor" red="0.26922219609999998" green="0.3477475626" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.93531885839999995" green="0.93531885839999995" blue="0.93531885839999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Ch-3: iOS(B)"/>
+                                <connections>
+                                    <segue destination="Rm4-88-S8M" kind="presentation" modalPresentationStyle="fullScreen" id="l67-aZ-2WB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="35J-rb-otG" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.05" id="5vX-w8-zhl"/>
+                            <constraint firstItem="qS3-Bz-n6N" firstAttribute="trailing" secondItem="35J-rb-otG" secondAttribute="trailing" id="HbL-xg-bJr"/>
                             <constraint firstItem="35J-rb-otG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hll-cf-2HS"/>
+                            <constraint firstItem="qS3-Bz-n6N" firstAttribute="top" secondItem="35J-rb-otG" secondAttribute="bottom" multiplier="1.2" id="N7M-d5-MKf"/>
+                            <constraint firstItem="qS3-Bz-n6N" firstAttribute="leading" secondItem="35J-rb-otG" secondAttribute="leading" id="NNb-8g-uod"/>
                             <constraint firstItem="35J-rb-otG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="gHf-oG-BKP"/>
+                            <constraint firstItem="qS3-Bz-n6N" firstAttribute="width" secondItem="35J-rb-otG" secondAttribute="width" id="hhe-OK-Be1"/>
+                            <constraint firstItem="qS3-Bz-n6N" firstAttribute="height" secondItem="35J-rb-otG" secondAttribute="height" id="o1F-DC-vLh"/>
                             <constraint firstItem="35J-rb-otG" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.7" id="xJs-iQ-8wh"/>
                         </constraints>
                     </view>
@@ -44,6 +59,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="34.821428571428569"/>
+        </scene>
+        <!--SignupLogin-->
+        <scene sceneID="ChD-E3-Lfs">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignupLogin" id="Rm4-88-S8M" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iPE-X0-NJ5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="543" y="-163"/>
         </scene>
         <!--SignUpScreen-->
         <scene sceneID="AQq-Iz-CSm">
