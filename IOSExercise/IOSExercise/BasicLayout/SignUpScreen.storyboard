@@ -61,7 +61,7 @@
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAT-ug-1AS">
-                                <rect key="frame" x="32" y="356.5" width="256" height="35.5"/>
+                                <rect key="frame" x="32" y="356.5" width="256" height="57.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="By signing up you accept the  ">
                                         <attributes>
@@ -106,19 +106,19 @@ VGVybXMgb2YgUwMDAwNlcnZpY2U
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVt-7t-166">
-                                <rect key="frame" x="55" y="411.5" width="210" height="35.5"/>
+                                <rect key="frame" x="55" y="435" width="210" height="57.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Already have an account ?">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name=".SFNS-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" Login">
                                         <attributes>
                                             <color key="NSColor" red="0.13790553675734241" green="0.12259292122227117" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name=".SFNS-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
