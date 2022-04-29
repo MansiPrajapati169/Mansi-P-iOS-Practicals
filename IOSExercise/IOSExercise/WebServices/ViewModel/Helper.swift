@@ -13,7 +13,6 @@ class Helper : UIViewController {
     static func showAlert(message: String, viewController: UIViewController) {
          let alertController = UIAlertController(title: NSLocalizedString("Alert!", comment: ""), message: message, preferredStyle: .alert)
          alertController.addAction(UIAlertAction(title: NSLocalizedString("Dismiss", comment: ""), style: .default))
-         
          viewController.present(alertController, animated: true, completion: nil)
      }
 }

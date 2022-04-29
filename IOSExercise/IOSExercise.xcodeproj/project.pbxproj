@@ -52,6 +52,28 @@
 		464A70AE281286580069C417 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A709B281286580069C417 /* WebViewController.swift */; };
 		464A70AF281286580069C417 /* CollectionDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A709D281286580069C417 /* CollectionDataModel.swift */; };
 		464A70B0281286580069C417 /* MapDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A709E281286580069C417 /* MapDataModel.swift */; };
+		465E24B2281BCB7E00AD2979 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E2495281BCB7E00AD2979 /* Presenter.swift */; };
+		465E24B3281BCB7E00AD2979 /* CounterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E2497281BCB7E00AD2979 /* CounterModel.swift */; };
+		465E24B4281BCB7E00AD2979 /* MVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E2499281BCB7E00AD2979 /* MVPViewController.swift */; };
+		465E24B5281BCB7E00AD2979 /* MVPStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465E249A281BCB7E00AD2979 /* MVPStoryboard.storyboard */; };
+		465E24B6281BCB7E00AD2979 /* MVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E249D281BCB7E00AD2979 /* MVCViewController.swift */; };
+		465E24B7281BCB7E00AD2979 /* StudentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E249F281BCB7E00AD2979 /* StudentData.swift */; };
+		465E24B8281BCB7E00AD2979 /* MVCStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465E24A1281BCB7E00AD2979 /* MVCStoryboard.storyboard */; };
+		465E24B9281BCB7E00AD2979 /* ArchitectureTasks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465E24A3281BCB7E00AD2979 /* ArchitectureTasks.storyboard */; };
+		465E24BA281BCB7E00AD2979 /* ArchitectureTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E24A4281BCB7E00AD2979 /* ArchitectureTasksViewController.swift */; };
+		465E24BB281BCB7E00AD2979 /* SongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E24A7281BCB7E00AD2979 /* SongViewModel.swift */; };
+		465E24BC281BCB7E00AD2979 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E24A8281BCB7E00AD2979 /* Dynamic.swift */; };
+		465E24BD281BCB7E00AD2979 /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E24AA281BCB7E00AD2979 /* SongModel.swift */; };
+		465E24BE281BCB7E00AD2979 /* LoginMvvmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E24AC281BCB7E00AD2979 /* LoginMvvmViewController.swift */; };
+		465E24BF281BCB7E00AD2979 /* SongDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E24AD281BCB7E00AD2979 /* SongDetailsViewController.swift */; };
+		465E24C0281BCB7E00AD2979 /* SongsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465E24AE281BCB7E00AD2979 /* SongsStoryboard.storyboard */; };
+		465E24C1281BCB7E00AD2979 /* SongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E24AF281BCB7E00AD2979 /* SongsViewController.swift */; };
+		465E24C2281BCB7E00AD2979 /* SongDetailsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465E24B0281BCB7E00AD2979 /* SongDetailsStoryboard.storyboard */; };
+		465E24C3281BCB7E00AD2979 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E24B1281BCB7E00AD2979 /* SongTableViewCell.swift */; };
+		465E24C6281BCBC000AD2979 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E24C5281BCBC000AD2979 /* Storyboarded.swift */; };
+		465E24CA281BD6A800AD2979 /* SongsDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E24C7281BD6A700AD2979 /* SongsDetailsCoordinator.swift */; };
+		465E24CB281BD6A800AD2979 /* ArchitectureCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E24C8281BD6A700AD2979 /* ArchitectureCoordinator.swift */; };
+		465E24CC281BD6A800AD2979 /* SongsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E24C9281BD6A700AD2979 /* SongsCoordinator.swift */; };
 		469DBD7F281B9DEB007F3E02 /* UIComponentTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469DBD7E281B9DEB007F3E02 /* UIComponentTasksViewController.swift */; };
 		46C87DBA27CCDAB200E12189 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C87DB927CCDAB200E12189 /* SignUpViewController.swift */; };
 		46CB1F9A28128E61002148DC /* GridListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CB1F9928128E61002148DC /* GridListViewCell.swift */; };
@@ -134,6 +156,28 @@
 		464A709B281286580069C417 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		464A709D281286580069C417 /* CollectionDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDataModel.swift; sourceTree = "<group>"; };
 		464A709E281286580069C417 /* MapDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDataModel.swift; sourceTree = "<group>"; };
+		465E2495281BCB7E00AD2979 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		465E2497281BCB7E00AD2979 /* CounterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterModel.swift; sourceTree = "<group>"; };
+		465E2499281BCB7E00AD2979 /* MVPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPViewController.swift; sourceTree = "<group>"; };
+		465E249A281BCB7E00AD2979 /* MVPStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MVPStoryboard.storyboard; sourceTree = "<group>"; };
+		465E249D281BCB7E00AD2979 /* MVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVCViewController.swift; sourceTree = "<group>"; };
+		465E249F281BCB7E00AD2979 /* StudentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentData.swift; sourceTree = "<group>"; };
+		465E24A1281BCB7E00AD2979 /* MVCStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MVCStoryboard.storyboard; sourceTree = "<group>"; };
+		465E24A3281BCB7E00AD2979 /* ArchitectureTasks.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ArchitectureTasks.storyboard; sourceTree = "<group>"; };
+		465E24A4281BCB7E00AD2979 /* ArchitectureTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchitectureTasksViewController.swift; sourceTree = "<group>"; };
+		465E24A7281BCB7E00AD2979 /* SongViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongViewModel.swift; sourceTree = "<group>"; };
+		465E24A8281BCB7E00AD2979 /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		465E24AA281BCB7E00AD2979 /* SongModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		465E24AC281BCB7E00AD2979 /* LoginMvvmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginMvvmViewController.swift; sourceTree = "<group>"; };
+		465E24AD281BCB7E00AD2979 /* SongDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetailsViewController.swift; sourceTree = "<group>"; };
+		465E24AE281BCB7E00AD2979 /* SongsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SongsStoryboard.storyboard; sourceTree = "<group>"; };
+		465E24AF281BCB7E00AD2979 /* SongsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsViewController.swift; sourceTree = "<group>"; };
+		465E24B0281BCB7E00AD2979 /* SongDetailsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SongDetailsStoryboard.storyboard; sourceTree = "<group>"; };
+		465E24B1281BCB7E00AD2979 /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		465E24C5281BCBC000AD2979 /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		465E24C7281BD6A700AD2979 /* SongsDetailsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsDetailsCoordinator.swift; sourceTree = "<group>"; };
+		465E24C8281BD6A700AD2979 /* ArchitectureCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchitectureCoordinator.swift; sourceTree = "<group>"; };
+		465E24C9281BD6A700AD2979 /* SongsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsCoordinator.swift; sourceTree = "<group>"; };
 		469DBD7E281B9DEB007F3E02 /* UIComponentTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponentTasksViewController.swift; sourceTree = "<group>"; };
 		46C87DB927CCDAB200E12189 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		46CB1F9928128E61002148DC /* GridListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridListViewCell.swift; sourceTree = "<group>"; };
@@ -202,6 +246,8 @@
 		4612C78B27C62CE00042B4A9 /* IOSExercise */ = {
 			isa = PBXGroup;
 			children = (
+				465E24C4281BCBC000AD2979 /* Common */,
+				465E2492281BCB7E00AD2979 /* Architecture */,
 				462E332C28166A2F00573878 /* WebServices */,
 				464311CA2812D12800259204 /* NavigationController */,
 				464A7083281286580069C417 /* UIComponents */,
@@ -305,6 +351,9 @@
 		464311CB2812D12800259204 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				465E24C8281BD6A700AD2979 /* ArchitectureCoordinator.swift */,
+				465E24C9281BD6A700AD2979 /* SongsCoordinator.swift */,
+				465E24C7281BD6A700AD2979 /* SongsDetailsCoordinator.swift */,
 				464311CC2812D12800259204 /* ReceiveMessageCoordinator.swift */,
 				464311CD2812D12800259204 /* AppCoordinator.swift */,
 				464311CE2812D12800259204 /* SendMessageCoordinator.swift */,
@@ -441,6 +490,143 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		465E2492281BCB7E00AD2979 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				465E2493281BCB7E00AD2979 /* MVP */,
+				465E249B281BCB7E00AD2979 /* MVC */,
+				465E24A2281BCB7E00AD2979 /* ArchitectureTasks */,
+				465E24A5281BCB7E00AD2979 /* MVVM */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		465E2493281BCB7E00AD2979 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				465E2494281BCB7E00AD2979 /* Presenter */,
+				465E2496281BCB7E00AD2979 /* Model */,
+				465E2498281BCB7E00AD2979 /* View */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		465E2494281BCB7E00AD2979 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				465E2495281BCB7E00AD2979 /* Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		465E2496281BCB7E00AD2979 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				465E2497281BCB7E00AD2979 /* CounterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		465E2498281BCB7E00AD2979 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				465E2499281BCB7E00AD2979 /* MVPViewController.swift */,
+				465E249A281BCB7E00AD2979 /* MVPStoryboard.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		465E249B281BCB7E00AD2979 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				465E249C281BCB7E00AD2979 /* Controller */,
+				465E249E281BCB7E00AD2979 /* Model */,
+				465E24A0281BCB7E00AD2979 /* View */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		465E249C281BCB7E00AD2979 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				465E249D281BCB7E00AD2979 /* MVCViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		465E249E281BCB7E00AD2979 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				465E249F281BCB7E00AD2979 /* StudentData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		465E24A0281BCB7E00AD2979 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				465E24A1281BCB7E00AD2979 /* MVCStoryboard.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		465E24A2281BCB7E00AD2979 /* ArchitectureTasks */ = {
+			isa = PBXGroup;
+			children = (
+				465E24A3281BCB7E00AD2979 /* ArchitectureTasks.storyboard */,
+				465E24A4281BCB7E00AD2979 /* ArchitectureTasksViewController.swift */,
+			);
+			path = ArchitectureTasks;
+			sourceTree = "<group>";
+		};
+		465E24A5281BCB7E00AD2979 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				465E24A8281BCB7E00AD2979 /* Dynamic.swift */,
+				465E24A6281BCB7E00AD2979 /* ViewModel */,
+				465E24A9281BCB7E00AD2979 /* Model */,
+				465E24AB281BCB7E00AD2979 /* View */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		465E24A6281BCB7E00AD2979 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				465E24A7281BCB7E00AD2979 /* SongViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		465E24A9281BCB7E00AD2979 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				465E24AA281BCB7E00AD2979 /* SongModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		465E24AB281BCB7E00AD2979 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				465E24AC281BCB7E00AD2979 /* LoginMvvmViewController.swift */,
+				465E24AD281BCB7E00AD2979 /* SongDetailsViewController.swift */,
+				465E24AE281BCB7E00AD2979 /* SongsStoryboard.storyboard */,
+				465E24AF281BCB7E00AD2979 /* SongsViewController.swift */,
+				465E24B0281BCB7E00AD2979 /* SongDetailsStoryboard.storyboard */,
+				465E24B1281BCB7E00AD2979 /* SongTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		465E24C4281BCBC000AD2979 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				465E24C5281BCBC000AD2979 /* Storyboarded.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		916453D92BD65E9A841D9643 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,13 +761,18 @@
 			files = (
 				4612C7BE27C63A4D0042B4A9 /* SignUpScreen.storyboard in Resources */,
 				464A70A3281286580069C417 /* DataTableViewCell.xib in Resources */,
+				465E24B9281BCB7E00AD2979 /* ArchitectureTasks.storyboard in Resources */,
+				465E24B8281BCB7E00AD2979 /* MVCStoryboard.storyboard in Resources */,
+				465E24C2281BCB7E00AD2979 /* SongDetailsStoryboard.storyboard in Resources */,
 				464A70A1281286580069C417 /* SignUpLogin.storyboard in Resources */,
 				4612C79927C62CE10042B4A9 /* LaunchScreen.storyboard in Resources */,
+				465E24B5281BCB7E00AD2979 /* MVPStoryboard.storyboard in Resources */,
 				464311E72812D2DF00259204 /* Localizable.strings in Resources */,
 				462E333C28166A2F00573878 /* LoginApi.storyboard in Resources */,
 				464311DF2812D12800259204 /* Navigation.storyboard in Resources */,
 				46D9073527CCC159007513CE /* Assets.xcassets in Resources */,
 				464A70A9281286580069C417 /* TabBar.storyboard in Resources */,
+				465E24C0281BCB7E00AD2979 /* SongsStoryboard.storyboard in Resources */,
 				4612C79427C62CE00042B4A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -713,39 +904,56 @@
 				46E9C76E281BC08900109FCC /* DetailViewController.swift in Sources */,
 				464A70A8281286580069C417 /* LoginViewController.swift in Sources */,
 				462E333F28166A3000573878 /* AddUserViewController.swift in Sources */,
+				465E24BE281BCB7E00AD2979 /* LoginMvvmViewController.swift in Sources */,
 				464A70A5281286580069C417 /* SignupViewController.swift in Sources */,
 				464A70A2281286580069C417 /* DataModel.swift in Sources */,
 				464311E52812D12800259204 /* SendMessageController.swift in Sources */,
 				464311E02812D12800259204 /* TableViewFooterTitleViewController.swift in Sources */,
 				46DC2DDA280D2DE800CC8908 /* Constants.swift in Sources */,
+				465E24B4281BCB7E00AD2979 /* MVPViewController.swift in Sources */,
 				4612C79127C62CE00042B4A9 /* ViewController.swift in Sources */,
+				465E24C6281BCBC000AD2979 /* Storyboarded.swift in Sources */,
 				462E333A28166A2F00573878 /* Helper.swift in Sources */,
 				4612C78D27C62CE00042B4A9 /* AppDelegate.swift in Sources */,
 				46E9C76D281BB69600109FCC /* TabBarViewController.swift in Sources */,
 				464311DB2812D12800259204 /* AppCoordinator.swift in Sources */,
 				462E333D28166A2F00573878 /* UserDetailsViewController.swift in Sources */,
+				465E24C3281BCB7E00AD2979 /* SongTableViewCell.swift in Sources */,
 				46C87DBA27CCDAB200E12189 /* SignUpViewController.swift in Sources */,
 				464311DE2812D12800259204 /* Coordinator.swift in Sources */,
+				465E24B7281BCB7E00AD2979 /* StudentData.swift in Sources */,
+				465E24CB281BD6A800AD2979 /* ArchitectureCoordinator.swift in Sources */,
+				465E24C1281BCB7E00AD2979 /* SongsViewController.swift in Sources */,
+				465E24BD281BCB7E00AD2979 /* SongModel.swift in Sources */,
+				465E24B6281BCB7E00AD2979 /* MVCViewController.swift in Sources */,
 				464311E42812D12800259204 /* FourthViewController.swift in Sources */,
 				464311DD2812D12800259204 /* MainCoordinator.swift in Sources */,
 				464A70A7281286580069C417 /* TableViewController.swift in Sources */,
+				465E24BA281BCB7E00AD2979 /* ArchitectureTasksViewController.swift in Sources */,
 				464311E12812D12800259204 /* ThirdViewController.swift in Sources */,
 				46CB1F9A28128E61002148DC /* GridListViewCell.swift in Sources */,
 				464A70B0281286580069C417 /* MapDataModel.swift in Sources */,
+				465E24BC281BCB7E00AD2979 /* Dynamic.swift in Sources */,
 				464311DA2812D12800259204 /* ReceiveMessageCoordinator.swift in Sources */,
+				465E24BB281BCB7E00AD2979 /* SongViewModel.swift in Sources */,
 				464A70AA281286580069C417 /* CollectionViewCell.swift in Sources */,
 				462E333928166A2F00573878 /* UserData.swift in Sources */,
 				464A70AF281286580069C417 /* CollectionDataModel.swift in Sources */,
 				464311E22812D12800259204 /* FifthViewController.swift in Sources */,
+				465E24CC281BD6A800AD2979 /* SongsCoordinator.swift in Sources */,
 				464A70A6281286580069C417 /* SignupLoginViewController.swift in Sources */,
+				465E24BF281BCB7E00AD2979 /* SongDetailsViewController.swift in Sources */,
 				462E334028166A3000573878 /* LoginApiViewController.swift in Sources */,
 				4612C78F27C62CE00042B4A9 /* SceneDelegate.swift in Sources */,
 				464311E32812D12800259204 /* ReceiveMessageController.swift in Sources */,
+				465E24B3281BCB7E00AD2979 /* CounterModel.swift in Sources */,
 				464A70AD281286580069C417 /* HomeViewController.swift in Sources */,
 				462E333B28166A2F00573878 /* ListUserTableViewCell.swift in Sources */,
 				462E333E28166A3000573878 /* ListUserViewController.swift in Sources */,
+				465E24B2281BCB7E00AD2979 /* Presenter.swift in Sources */,
 				464A70AE281286580069C417 /* WebViewController.swift in Sources */,
 				464311DC2812D12800259204 /* SendMessageCoordinator.swift in Sources */,
+				465E24CA281BD6A800AD2979 /* SongsDetailsCoordinator.swift in Sources */,
 				464A70A4281286580069C417 /* DataTableViewCell.swift in Sources */,
 				464A70AB281286580069C417 /* MapViewController.swift in Sources */,
 				469DBD7F281B9DEB007F3E02 /* UIComponentTasksViewController.swift in Sources */,

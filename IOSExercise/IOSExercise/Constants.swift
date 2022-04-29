@@ -63,6 +63,7 @@ struct Constants {
     static let fourthIdentifier = "fourthViewController"
     static let fifthIdentifier = "fifthViewController"
     static let tableViewFooterIdentifier = "tableViewFooterTitle"
+    static let receiveMessageController = "receiveMessageNavigationController"
     
     //MARK: - Web Services
     static let get = "GET"
@@ -79,4 +80,13 @@ struct Constants {
     static let listUserCellIdentifier = "listUserCell"
     static let addUserViewIdentifier = "addUserView"
     static let listUserIdentifier = "listUser"
+    
+    //MARK: - Architecture
+    static let architectureIdentifier = "architectureTasksViewController"
+    static let mvpIdentifier = "mvpViewController"
+    static let mvcIdentifier = "mvcViewController"
+    static let mvcStoryBoard = "MVCStoryboard"
+    static let mvpStoryBoard = "MVPStoryboard"
+    static let loginMvvmViewController = "loginMvvmViewController"
+    static let songCellIdentifier = "songCell"
 }

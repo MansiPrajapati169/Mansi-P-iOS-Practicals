@@ -72,7 +72,6 @@ extension LoginApiViewController {
         }
         
         var request = URLRequest(url: url)
-        
         request.httpMethod = Constants.post
         request.setValue(Constants.applicationJson, forHTTPHeaderField: Constants.contentType)
         request.httpBody = jsonData

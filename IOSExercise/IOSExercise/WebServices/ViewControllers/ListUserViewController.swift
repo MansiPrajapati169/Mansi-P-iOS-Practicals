@@ -14,14 +14,14 @@ class ListUserViewController: UIViewController {
     @IBOutlet weak var btnFloating: UIButton!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var tvUser: UITableView!
-    
+
     //MARK: - Variables
     var user = [Users]()
     
     //MARK: - View Controller LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         setData()
         loadUserData()
     }

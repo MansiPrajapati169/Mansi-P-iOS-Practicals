@@ -161,7 +161,7 @@
                             </activityIndicatorView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tln-Wj-YIf">
                                 <rect key="frame" x="344.5" y="795" width="50" height="50"/>
-                                <color key="backgroundColor" red="0.1552251888" green="0.19188274559999999" blue="0.93531885839999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.26922219609999998" green="0.3477475626" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Fhi-0c-kWD"/>
                                     <constraint firstAttribute="width" constant="50" id="xCH-nU-Z9k"/>
