@@ -28,7 +28,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        let signInPage = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController") as! ViewController
 //        let appDelegate = UIApplication.shared.delegate
 //        appDelegate?.window??.rootViewController = signInPage
-        
+
+//    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+//        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
+//        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
+//        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+//        guard let _ = (scene as? UIWindowScene) else { return }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

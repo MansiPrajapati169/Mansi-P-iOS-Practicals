@@ -36,7 +36,6 @@ class HomeViewController: UIViewController {
 
     @objc func refreshAction() {
         tableView.reloadData()
-        tableView.backgroundColor = .gray
         refreshControl.endRefreshing()
     }
     
@@ -81,7 +80,7 @@ class HomeViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == Constants.detailSegue {
-            guard let vc = segue.destination as? DetailViewController else{
+            guard let vc = segue.destination as? DetailViewController else {
                 return
             }
             vc.name = itemName

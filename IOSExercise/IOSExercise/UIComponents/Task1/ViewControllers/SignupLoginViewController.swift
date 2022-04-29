@@ -11,7 +11,7 @@ class SignupLoginViewController: UIPageViewController {
     
     //MARK: - Variable
     lazy var vcList:[UIViewController] = {
-        let storyboard = UIStoryboard(name: Constants.signUpLogin, bundle: nil)
+        let storyboard = UIStoryboard(name: Constants.signUpLoginStoryBoard, bundle: nil)
         let signupViewController = storyboard.instantiateViewController(identifier: Constants.signUpIdentifier)
         let loginViewController = storyboard.instantiateViewController(identifier: Constants.loginIdentifier)
         
